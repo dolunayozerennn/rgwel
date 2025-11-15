@@ -1,0 +1,221 @@
+{
+  "source_pdf": "RGWEL A SERİSİ 2025 NİSAN-1.pdf",
+  "product_line": {
+    "name": "RGWEL A Serisi Robotik 3D Fiber Lazer Kesim",
+    "power_range_kw": ["2", "3", "6", "12"],
+    "highlights": [
+      "Yaskawa yüksek hassasiyetli robot ile 360° akıllı otomatik kesim",
+      "Dikey yapı + hafif özel 3D kesme kafası",
+      "Çarpışma ve dolaşma önleme, çarpışma sonrası hızlı sıfırlama",
+      "Büyük ölçekli 3B iş parçalarında yüksek hız ve hassasiyet",
+      "Robot kol erişimi: 1853 mm"
+    ]
+  },
+  "core_components": {
+    "3d_cutting_head": {
+      "weight_kg": "≈9",
+      "features": [
+        "Manuel odaklama (el çarkı)",
+        "Manyetik mekanik çarpışma önleme",
+        "Tam yalıtımlı iç yapı (tozdan optik koruma)",
+        "Çekmece tipi koruyucu lens",
+        "Özel gaz yolu ve benzersiz soğutma; nozul ve seramik halka koruması; uzun süreli çalışma"
+      ]
+    },
+    "system_content": [
+      { "item": "Robot", "brand": "Yaskawa", "qty": 1 },
+      { "item": "Şasi ve kabin", "brand": "RGWEL", "qty": 1 },
+      { "item": "Su soğutucu", "brand": "S&A", "qty": 1 },
+      { "item": "Elektrik sistemi", "brand": "Schneider/SMC vb.", "qty": 1 },
+      { "item": "Kesme sistemi", "brand": "RGWEL", "qty": 1 },
+      { "item": "Lazer kaynağı", "brand": "Raycus / IPG", "qty": 1 },
+      { "item": "3D kesme kafası", "brand": "RGWEL", "qty": 1 },
+      { "item": "Dikey taban", "brand": "RGWEL", "qty": 1 },
+      { "item": "Pozisyoner", "brand": "RGWEL", "qty": 1, "optional": true },
+      { "item": "Çevrimdışı yazılım", "brand": "RGWEL", "qty": 1, "optional": true },
+      { "item": "Regülatör", "brand": "RGWEL", "qty": 1, "optional": true },
+      { "item": "Bakım araçları ve kullanım kılavuzu", "brand": "RGWEL", "qty": 1 },
+      { "item": "Sertifika", "brand": "RGWEL", "qty": 1 }
+    ]
+  },
+  "laser_source": {
+    "models_w": ["1500", "2000", "3000", "6000", "12000", "20000"],
+    "general_specs": {
+      "central_wavelength_nm": "1080 (±10)",
+      "modes": ["Continuous", "Pulse"],
+      "output_power_stability": "±2%",
+      "output_connector": "QBH (özelleştirilebilir)",
+      "beam_quality": "LOE (özelleştirilebilir)",
+      "control": ["RS232", "AD", "Ethernet"],
+      "power_adjustment_%": "10–100",
+      "fiber_length_m": "20",
+      "cooling": "Watercooling",
+      "remark": "6kW ve üzeri lazerlerde özel kontrol kabini"
+    }
+  },
+  "materials_and_examples": {
+    "cuttable_materials": [
+      "Karbon çeliği",
+      "Paslanmaz çelik",
+      "Alüminyum alaşımı",
+      "Pirinç",
+      "Bakır",
+      "Galvanizli sac",
+      "Silikon çelik sac",
+      "Elektrolitik sac",
+      "Titanyum alaşımı",
+      "Manganez alaşımı"
+    ]
+  },
+  "offline_programming_and_positioners": {
+    "offline_software": [
+      "3D modelleri içe aktararak karmaşık iş parçalarında çevrimdışı programlama",
+      "6 temel + 5 benzersiz özellik; tek tıklama yörünge fonksiyonları"
+    ],
+    "positioners_examples": [
+      {
+        "model": "Tek eksenli baştan kuyruğa çerçeve konumlayıcı",
+        "load_kg": "250/500",
+        "frame_diameter_mm": "Φ400/Φ800",
+        "power_kw": ["1.5/2.0", "2.0/3.0"]
+      },
+      {
+        "model": "Tek eksenli yatay döner konumlayıcı",
+        "load_kg": "250/500",
+        "frame_diameter_mm": "Φ800",
+        "power_kw": ["2.0/3.0"]
+      },
+      { "model": "Çift eksenli yatay döner konumlayıcı", "load_kg": "250/500" },
+      {
+        "model": "İki eksenli L şeklinde konumlayıcı",
+        "load_kg": "250/500",
+        "frame_size_mm": "1800×800 / 2500×800"
+      }
+    ]
+  },
+  "technical_parameters": {
+    "repeatability_mm": "±0.02",
+    "reachable_radius_mm": "1853",
+    "fiber_cable_length_m": "20",
+    "system_languages": ["Türkçe", "English, vb."],
+    "total_power_kw_options": ["15", "25", "35", "65"],
+    "voltage_frequency": "Standart 3-faz 380V 50/60Hz",
+    "weights_and_dimensions_note": "Net/brüt ağırlık ve ebatlar tablo halinde verilmiştir; model varyantına göre değişir."
+  },
+  "cutting_parameters_summary": {
+    "powers_w": ["2000", "3000", "6000", "12000"],
+    "materials": ["Siyah çelik", "Paslanmaz çelik", "Alüminyum"],
+    "gases": ["N2", "O2"],
+    "note": "Kesim kalınlığı (mm) ve hız (m/dak) değerleri, her güç ve malzeme için detaylı tablo halinde verilmiştir."
+  },
+  "robot_models": [
+    {
+      "model": "GP20",
+      "max_working_radius_mm": "1802",
+      "repeatability_mm": "±0.02",
+      "max_load_kg": "20",
+      "robot_power_kw": "9–42",
+      "laser_power_w": "1000–6000",
+      "robot_weight_kg": "250",
+      "panel_weight_kg": "60",
+      "operating_temp_c": "0–45",
+      "suitable_aluminum_mm": "0.5–4",
+      "axes": "6 AXIS"
+    },
+    {
+      "model": "GP50",
+      "max_working_radius_mm": "2061",
+      "repeatability_mm": "±0.03",
+      "max_load_kg": "50",
+      "robot_power_kw": "9–84",
+      "laser_power_w": "1000–12000",
+      "robot_weight_kg": "570",
+      "panel_weight_kg": "80",
+      "operating_temp_c": "0–45",
+      "suitable_aluminum_mm": "0.5–8",
+      "axes": "6 AXIS"
+    },
+    {
+      "model": "AR2010",
+      "max_working_radius_mm": "2010",
+      "repeatability_mm": "±0.08",
+      "max_load_kg": "12",
+      "robot_power_kw": "9–24",
+      "laser_power_w": "1000–3000",
+      "robot_weight_kg": "260",
+      "panel_weight_kg": "60",
+      "operating_temp_c": "0–45",
+      "suitable_aluminum_mm": "0.5–4",
+      "axes": "6 AXIS"
+    }
+  ],
+  "machine_requirements": [
+    {
+      "category": "Güç Kaynağı (UPS)",
+      "details": [
+        "Üç fazlı beş telli voltaj 380V ±5% / 50Hz",
+        "Akım: 60A",
+        "Toprak direnci ≤ 4Ω",
+        "İsteğe bağlı düzenlenmiş güç kaynağı"
+      ]
+    },
+    {
+      "category": "Soğutucu Su",
+      "details": [
+        "80 L; iletkenlik 30–50",
+        "pH nötr",
+        "Damıtılmış/arıtılmış su",
+        "Kışın donma altında antifriz eklenmeli"
+      ]
+    },
+    {
+      "category": "Gaz",
+      "details": [
+        "Azot (N2) < 3 MPa; Oksijen (O2) < 1 MPa",
+        "Saflık ≥ %99,9",
+        "Şişelenmiş gaz; silindir basıncı düşürücü vana (tedarikçi gereksinimine göre)"
+      ]
+    },
+    {
+      "category": "Çalışma Ortamı",
+      "details": [
+        "Sıcaklık: −2 ~ 40 °C",
+        "Nem: <%70",
+        "Zemin: güçlü, düz, titreşimsiz"
+      ]
+    },
+    {
+      "category": "Plaka",
+      "details": [
+        "Yüzey temiz ve passız (ulusal standardı karşılamalı)",
+        "Alternatif: Baosteel fabrika standartlarına uygunluk"
+      ]
+    }
+  ],
+  "contacts": {
+    "website": "rgwel.com",
+    "email": "info@rgwel.com",
+    "phone_tr": "+90 262 503 07 41",
+    "factories": [
+      {
+        "country": "Türkiye",
+        "city": "Kocaeli (Dilovası)",
+        "address": "Köseler Mah. Mermerciler KOBİ OSB 1.Cad 22.Sok. No:2"
+      },
+      {
+        "country": "Türkiye",
+        "city": "İzmir (Bergama)",
+        "address": "Bergama OSB 10.Cad No:20"
+      },
+      {
+        "country": "Almanya",
+        "city": "Ennepetal",
+        "address": "Rgwel GmbH, Preger Str. 25, 58256"
+      }
+    ]
+  },
+  "operational_disclaimers": [
+    "Kesim parametre tabloları yalnızca referans amaçlıdır; gerçek üretimde malzeme, gaz ve numune koşullarına göre optimizasyon yapılmalıdır.",
+    "6 kW ve üzeri lazer kaynakları için özel kontrol kabini gereklidir."
+  ]
+}

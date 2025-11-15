@@ -1,0 +1,342 @@
+{
+  "kb_version": "2025-10-09",
+  "source_doc": "RGWEL P SERİSİ 2025 Nisan-2 Final.pdf",
+  "brand_product_line": {
+    "brand": "RGWEL",
+    "series": "P Serisi",
+    "category": "El Tipi Fiber Lazer Kaynak Makinesi",
+    "core_functions": [
+      "Kaynak",
+      "Kesim",
+      "Temizleme"
+    ]
+  },
+  "value_proposition": {
+    "highlights": [
+      "Basit kullanım; profesyonel ustalık gerektirmez.",
+      "Geleneksel kaynak yöntemlerine göre x8’e kadar daha hızlı.",
+      "%60’a kadar daha az sarf malzemesi.",
+      "En ince malzemelerde bile tesfiyesiz, estetik, %100 nüfuziyetli kaynak.",
+      "Fotoelektrik dönüşüm verimliliği sayesinde ≈%30’a kadar daha düşük enerji tüketimi.",
+      "Taşınabilir tasarım; saha ve atölye için esnek kullanım.",
+      "Kesintisiz mod ile kaynak sonrası taşlama/parlatma ihtiyacını ortadan kaldırır.",
+      "3-in-1: Kaynak + Kesim + Temizleme (solüsyon vb. kimyasala gerek yok)."
+    ],
+    "engineering_note": "Enerji kaybını güce çeviren tasarım yaklaşımı → maksimum verim, stabil çalışma, uzun ömür."
+  },
+  "difference_vs_traditional": {
+    "weld_speed": "≈x8’e kadar daha hızlı",
+    "material_deformation": "Düşük (dar ısıl etki alanı)",
+    "post_process": "Genelde yok veya minimal (tesfiye/taşlama gereksiz)",
+    "ease_of_use": "Basit; uzmanlık eşiği düşük",
+    "consumables": "Düşük",
+    "operator_safety": "Üst düzey; gelişmiş güvenlik ve uyarı sistemleri",
+    "weld_bead_width": "Ayarlanabilir ~0.8–5 mm (modele göre 8 mm’e kadar)",
+    "penetration": "Ayarlanabilir 0–10 mm (güç ve malzemeye bağlı)",
+    "energy": "Düşük tüketim; verimli güç kullanımı"
+  },
+  "control_system": {
+    "panel_lang": [
+      "Türkçe"
+    ],
+    "features": [
+      "Lens uyarı sensörü",
+      "Basitleştirilmiş arayüz, reçete kaydı",
+      "Rampalı lazer duruş/kalkış, punta modu",
+      "Detaylı arıza ekranı, LED uyarı",
+      "5 mm’e kadar ışık genişliği, ayarlanabilir nokta boyutu",
+      "Kesim modu, temizleme modu",
+      "Safe-Stop (arıza durumunda otomatik kapanma)",
+      "Gelişmiş güvenlik sistemi",
+      "Endüstriyel tip dayanıklı ekran",
+      "0–30 Hz frekans aralığı",
+      "Ayarlanabilir gaz duruş/kalkış, gaz uyarı sensörü"
+    ],
+    "cooling": "Dahili akıllı su soğutma (tüm iklimlere uyumlu)"
+  },
+  "mechanical_electrical": {
+    "resonator": "Yüksek kalite, ≈100.000 saat ömür",
+    "wire_feeder": "Dahili tel besleme sistemi",
+    "fiber_cable_length_m": 8,
+    "enclosure": "Dayanıklı gövde; torç kablosu muhafaza alanı",
+    "top_lights": "Makine üstü uyarı LED’leri",
+    "powertrain": "Üstün kalite şalt malzemesi, dahili trafo"
+  },
+  "models": [
+    {
+      "model": "RG-W1500P",
+      "power_w": 1500,
+      "laser_type": "Fiber",
+      "wavelength_nm": 1080,
+      "spot_size_mm": "0.2–5 (opsiyonel 8)",
+      "max_penetration_mm": 6,
+      "pulse_width_ms": "≤10",
+      "max_input_power_kW": 8,
+      "cooling": "Dahili su soğutma",
+      "wire_feeder": "Dahili",
+      "transformer": "Dahili",
+      "functions": {
+        "weld": true,
+        "cut": true,
+        "clean": true
+      },
+      "capability_matrix_mm": {
+        "no_wire": {
+          "carbon_steel": 6,
+          "stainless": 8,
+          "aluminum": 4,
+          "copper_brass": 5
+        },
+        "with_wire": {
+          "carbon_steel": 7,
+          "stainless": 3,
+          "aluminum": 2,
+          "copper_brass": 4
+        },
+        "cutting_max": {
+          "carbon_steel": 2,
+          "stainless": 2,
+          "aluminum": 3,
+          "copper_brass": 2
+        }
+      },
+      "warranty_years": 2,
+      "price": {
+        "currency": "USD",
+        "unit_price": 6990,
+        "includes": "Türkiye’nin her yerine kapı teslim, eğitim ve kurulum dahil",
+        "notes": "Güncel satış fiyatı."
+      }
+    },
+    {
+      "model": "RG-W2000P",
+      "power_w": 2000,
+      "laser_type": "Fiber",
+      "wavelength_nm": 1080,
+      "spot_size_mm": "0.2–5 (opsiyonel 8)",
+      "max_penetration_mm": 10,
+      "pulse_width_ms": "≤10",
+      "max_input_power_kW": 10,
+      "cooling": "Dahili su soğutma",
+      "wire_feeder": "Dahili",
+      "transformer": "Dahili",
+      "functions": {
+        "weld": true,
+        "cut": true,
+        "clean": true
+      },
+      "capability_matrix_mm": {
+        "no_wire": {
+          "carbon_steel": 8,
+          "stainless": 10,
+          "aluminum": 6,
+          "copper_brass": 6
+        },
+        "with_wire": {
+          "carbon_steel": 8,
+          "stainless": 4,
+          "aluminum": 4,
+          "copper_brass": 6
+        },
+        "cutting_max": {
+          "carbon_steel": 2,
+          "stainless": 3,
+          "aluminum": 4,
+          "copper_brass": 2
+        }
+      },
+      "warranty_years": 2,
+      "price": {
+        "currency": "USD",
+        "unit_price": 8990,
+        "includes": "Türkiye’nin her yerine kapı teslim, eğitim ve kurulum dahil",
+        "notes": "Güncel satış fiyatı."
+      }
+    },
+    {
+      "model": "RG-W3000P",
+      "power_w": 3000,
+      "laser_type": "Fiber",
+      "wavelength_nm": 1080,
+      "spot_size_mm": "0.2–8",
+      "max_penetration_mm": 10,
+      "pulse_width_ms": "≤10",
+      "max_input_power_kW": 12,
+      "cooling": "Dahili su soğutma",
+      "wire_feeder": "Dahili",
+      "transformer": "Dahili",
+      "functions": {
+        "weld": true,
+        "cut": true,
+        "clean": true
+      },
+      "capability_matrix_mm": {
+        "no_wire": {
+          "carbon_steel": 12,
+          "stainless": 14,
+          "aluminum": 10,
+          "copper_brass": 10
+        },
+        "with_wire": {
+          "carbon_steel": 12,
+          "stainless": 8,
+          "aluminum": 6,
+          "copper_brass": 8
+        },
+        "cutting_max": {
+          "carbon_steel": 3,
+          "stainless": 4,
+          "aluminum": 6,
+          "copper_brass": 3
+        }
+      },
+      "warranty_years": 2,
+      "price": {
+        "currency": "USD",
+        "unit_price": 11990,
+        "includes": "Türkiye’nin her yerine kapı teslim, eğitim ve kurulum dahil",
+        "notes": "Güncel satış fiyatı."
+      }
+    }
+  ],
+  "applications": {
+    "examples": [
+      "Endüstriyel mutfak",
+      "Alüminyum/metal imalat",
+      "Mobilya raf/iskele",
+      "Makine imalatı",
+      "Merdiven/korkuluk/pencere",
+      "Reklamcılık",
+      "Aydınlatma"
+    ],
+    "materials": [
+      "Siyah çelik",
+      "Paslanmaz",
+      "Alüminyum",
+      "Bakır/Pirinç"
+    ]
+  },
+  "service_support": {
+    "delivery_install_training": "Yerinde teslim, kurulum ve eğitim",
+    "warranty_years": 2,
+    "contact": {
+      "turkey_izmir": "Bergama OSB, 10.Cad No:20, İzmir, Türkiye",
+      "turkey_kocaeli": "Mermerciler KOBİ OSB, 1.Cad 22.Sok No:2, Dilovası / Kocaeli",
+      "germany": "Rgwel GmbH, Preger Str. 25, 58256 Ennepetal",
+      "phone": "+90 262 503 07 41",
+      "email": "info@rgwel.com",
+      "site": "rgwel.com"
+    }
+  },
+  "response_templates": {
+    "quote_intake": "Uygun P Serisi modeli için: 1) Malzeme ve kalınlık (aralık), 2) Dikiş tipi (köşe/çapraz/dairesel), 3) Günlük/aylık adet, 4) Tel kullanımı planı (var/yok), 5) Kesim/temizleme ihtiyacı, 6) Portabilite (saha/atölye), 7) Bütçe ve teslim lokasyonu bilgilerini paylaşın.",
+    "spec_answer": "P Serisi el tipi fiber lazer, 3-in-1 (kaynak-kesim-temizleme), dahili tel besleme ve akıllı su soğutma ile gelir. Spot 0.2–5/8 mm, frekans 0–30 Hz, dalga boyu 1070–1080 nm bandındadır (1080 nm ±10).",
+    "price_answer": "Fiyat model/güç ve konfigürasyona bağlıdır. Paylaşılan PDF’teki güncel rakamları baz alırız; teslim-kurulum-eğitim dahildir.",
+    "capability_answer": "1500/2000/3000 W modellerde, malzeme ve tel kullanımına göre maksimum kalınlıklar farklıdır. İhtiyacınıza göre öneri ve numune parametresi paylaşabiliriz."
+  },
+  "notes_limitations": [
+    "Kalınlık değerleri uygulama/parametre ve yüzey hazırlığına bağlı maksimum kapasite göstergeleridir.",
+    "Tel kullanımı, gaz türü ve ısı girdisi; estetik ve mukavemeti etkiler.",
+    "Kesim/temizleme limitleri malzeme cinsine göre değişir."
+  ],
+  "additional_sources": [
+    "Eag_Demir_2KW_Lazer Temizleme_Teklif_Pserisi_(23041416).pdf"
+  ],
+  "cleaning_series_rg_c": {
+    "product_family": "RG-C (Handheld Cleaning)",
+    "dimensions_cm": "90x80x48",
+    "components": {
+      "resonator_brand": "Raycus (IPG opsiyonel)",
+      "chiller_brand": "S&A (endüstriyel chiller)"
+    },
+    "ui_system": {
+      "languages": [
+        "TR",
+        "EN",
+        "RU",
+        "PT",
+        "DE"
+      ],
+      "os": "R1 Version",
+      "features": [
+        "Torch üzerinden %100 kontrol",
+        "Arıza kaydı/sorgulama/izleme"
+      ]
+    },
+    "power_supply_options": [
+      "220/380V",
+      "50/60Hz",
+      "Monofaze & Trifaze"
+    ],
+    "models": [
+      {
+        "model": "RG-C1500",
+        "laser_power_w": 1500,
+        "wavelength_nm": 1070,
+        "cleaning_speed_m2_per_hour": "<=30",
+        "beam_width_mm": "30-150",
+        "scan_speed_mm_s": "0-7000",
+        "fiber_length_m": 8,
+        "cooling": "Chiller",
+        "notes": "Tabloda 1070nm; bazı teknik sayfalarda 1080nm ifadesi de geçebilir."
+      },
+      {
+        "model": "RG-C2000P",
+        "laser_power_w": 2000,
+        "wavelength_nm": 1070,
+        "alt_wavelength_nm_info": "Teknik parametre listesinde 1080nm ifadesi de yer alır.",
+        "cleaning_speed_m2_per_hour": "<=50",
+        "beam_width_mm": "30-150",
+        "scan_speed_mm_s": "0-7000",
+        "fiber_length_m": 8,
+        "cooling": "Chiller"
+      },
+      {
+        "model": "RG-C2000H",
+        "laser_power_w": 2000,
+        "wavelength_nm": 1080,
+        "spot_sizes_mm": [
+          "30",
+          "150"
+        ],
+        "pulse_width_ms": "≤10",
+        "total_power_kw": 10,
+        "cooling": "Chiller"
+      }
+    ]
+  },
+  "commercial_terms_examples": [
+    {
+      "customer": "EAG DEMİR SANAYİ VE TİCARET A.Ş.",
+      "quote_date": "2023-04-14",
+      "quote_no": "RG23041416",
+      "items": [
+        {
+          "product": "RG-C2000P / Raycus / 2kW / 1080nm / Su soğutma",
+          "unit_price_usd": 19500
+        }
+      ],
+      "included_equipment": [
+        "Basın düşürücü saat",
+        "Torch koruma kılıfı (8 m, siyah)",
+        "Koruyucu lens (adetli)",
+        "1080nm koruyucu gözlük + kılıf",
+        "Ekran kontrollü el torch",
+        "Endüstriyel su soğutma sistemi (chiller)"
+      ],
+      "discounted_total_usd": 17500,
+      "payment_terms": "Siparişte %40 avans, sevkten 1 gün önce %60",
+      "validity_days": 7,
+      "delivery_time_workdays": 10,
+      "fx_rule": "Fatura gününde İşbank döviz satış kuru",
+      "vat_note": "Fiyatlara KDV dahil değildir."
+    }
+  ],
+  "service_support_additions": {
+    "onsite_resolution_hours": 72,
+    "training_people_included": 2,
+    "spare_parts_supply_years": 5
+  },
+  "delivery_hint": "Genellikle 2–4 hafta; stokta ise ~1 hafta. Net süre satış ekibi teyit eder.",
+  "package_note": "Örnek kutu içeriği: 10 lens, 10 nozul, kaynak gözlüğü, gaz saati. Kesin içerik teklif aşamasında netleşir."
+}

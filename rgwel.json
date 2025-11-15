@@ -1,0 +1,327 @@
+
+{
+  "kb_version": "2025-10-09",
+  "brand": {
+    "name": "Rgwel",
+    "what_we_do": "Endüstriyel ve el tipi fiber lazer ağırlıklı lazer kaynak makineleri üretimi; otomasyon/robotik entegrasyon.",
+    "product_families": [
+      {
+        "name": "P Serisi",
+        "positioning": "Kompakt ve mobil uygulamalar; saha ve atölye işleri.",
+        "notes": "Taşınabilirlik, hızlı devreye alma, el tipi fiber lazer kullanımı."
+      },
+      {
+        "name": "H Serisi",
+        "positioning": "Daha geniş kullanım alanı; aksesuar ve konfigürasyonla özelleştirilebilir.",
+        "notes": "Atölye ve hafif-orta üretim hatları."
+      },
+      {
+        "name": "A Serisi",
+        "positioning": "Robotik/otomasyon hatlarıyla entegre çalışma.",
+        "notes": "Seri üretim, 6 eksen robot + CNC ray sistemlerine uyum."
+      }
+    ],
+    "service_support": {
+      "warranty_service": "2 yıl servis desteği",
+      "spare_parts": "5 yıl yedek parça desteği",
+      "training": "Temel kullanım ve güvenlik eğitimi (kurulum sonrası)",
+      "maintenance": "Düşük bakım; başlık/lens/soğutma periyodik temizlik",
+      "multi_brand_service": "Farklı markalara servis desteğimiz bulunmaktadır. Marka ve model bilgilerinizi paylaşırsanız yardımcı olmaya çalışırız.",
+      "central_service": "Ankara ve diğer illere Kocaeli Dilovası’ndaki merkez fabrikamızdan servis verilmektedir."
+    }
+  },
+  "technology_overview": {
+    "laser_types": [
+      {
+        "type": "Fiber",
+        "pros": [
+          "Yüksek enerji verimi (~%40+)",
+          "Düşük bakım",
+          "Metal işleme için ideal",
+          "Kompakt yapı"
+        ],
+        "cons": [
+          "Başlangıç maliyeti bazı segmentlerde daha yüksek"
+        ],
+        "best_for": [
+          "Çelik, paslanmaz, alüminyum, titanyum",
+          "Hız ve estetik dikiş gereken işler"
+        ]
+      },
+      {
+        "type": "CO2",
+        "pros": [
+          "Çok yönlü malzeme işleme (metal dışı dahil)"
+        ],
+        "cons": [
+          "Daha düşük verim",
+          "Daha fazla bakım (optik/ayna)"
+        ],
+        "best_for": [
+          "Plastik, bazı kalın malzemeler ve özel uygulamalar"
+        ]
+      },
+      {
+        "type": "Nd:YAG",
+        "pros": [
+          "Mikro ölçekte yüksek hassasiyet"
+        ],
+        "cons": [
+          "Enerji verimliliği düşük",
+          "Tüketim/ömrü sınırlı"
+        ],
+        "best_for": [
+          "Elektronik, mücevher, medikal parça mikro kaynağı"
+        ]
+      },
+      {
+        "type": "Diyot",
+        "pros": [
+          "Yüksek verimlilik potansiyeli",
+          "Taşınabilir varyantlar"
+        ],
+        "cons": [
+          "Uygulamaya göre güç sınırlı olabilir"
+        ],
+        "best_for": [
+          "El tipi taşınabilir çözümler, saha bakımı"
+        ]
+      }
+    ],
+    "power_bands": [
+      {
+        "watt": "1000–1500W",
+        "typical_use": "İnce levha, hafif işler",
+        "thickness_hint_mm": "≈1–3"
+      },
+      {
+        "watt": "2000–3000W",
+        "typical_use": "Orta kalınlıklar, üretim hattı",
+        "thickness_hint_mm": "≈3–8"
+      },
+      {
+        "watt": "3000W+",
+        "typical_use": "Daha kalın parçalar ve yüksek hacim",
+        "thickness_hint_mm": "≈8–10"
+      }
+    ],
+    "process_notes": [
+      "Dar ısıl etki alanı (HAZ) → düşük deformasyon.",
+      "Uygun parametrelerle kaynak sonrası taşlama genelde gerekmez.",
+      "Argon/He gibi koruyucu gazlar özellikle alüminyumda kaliteyi artırır."
+    ]
+  },
+  "applications": {
+    "top_sectors": [
+      {
+        "name": "Otomotiv",
+        "examples": [
+          "Şasi, egzoz, pil modülleri"
+        ],
+        "why": [
+          "Kısa çevrim, tekrarlanabilir kalite"
+        ]
+      },
+      {
+        "name": "Havacılık/Uzay",
+        "examples": [
+          "Hafif alaşımlar, titanyum"
+        ],
+        "why": [
+          "Mikron hassasiyet, düşük HAZ"
+        ]
+      },
+      {
+        "name": "Elektronik",
+        "examples": [
+          "Mikro bağlantılar, sensörler"
+        ],
+        "why": [
+          "Mikro ölçekte temiz dikiş"
+        ]
+      },
+      {
+        "name": "Medikal",
+        "examples": [
+          "İmplant, cerrahi alet"
+        ],
+        "why": [
+          "Steril, iz bırakmayan dikiş"
+        ]
+      },
+      {
+        "name": "Savunma",
+        "examples": [
+          "Zırh plakaları, sistem kutuları"
+        ],
+        "why": [
+          "Yüksek mukavemet, sızdırmazlık"
+        ]
+      },
+      {
+        "name": "Beyaz Eşya",
+        "examples": [
+          "Kazan, kapak, iç bağlantılar"
+        ],
+        "why": [
+          "Estetik kalite, seri üretim uyumu"
+        ]
+      },
+      {
+        "name": "Takı/Mücevher",
+        "examples": [
+          "Altın, gümüş, platin"
+        ],
+        "why": [
+          "Minimal deformasyon, estetik"
+        ]
+      },
+      {
+        "name": "Enerji/Güneş",
+        "examples": [
+          "Çerçeve, batarya modülleri"
+        ],
+        "why": [
+          "Temiz bağlantı, uzun ömür"
+        ]
+      }
+    ],
+    "portability": "El tipi fiber/diyot sistemler saha bakım-onarım için uygundur.",
+    "robotics": "Robot kollar ve CNC raylarla otomasyon; seri üretimde tam entegrasyon."
+  },
+  "pricing_logic_2025": {
+    "notes": "Aralıklar uygulamaya ve konfigürasyona göre değişir; yatırım kararında servis/eğitim/ömür maliyeti kritik.",
+    "ranges_usd": [
+      {
+        "type": "El Tipi Fiber Lazer",
+        "avg": "10,000–15,000 USD",
+        "use": "İnce metal, mobil işler"
+      },
+      {
+        "type": "Endüstriyel Fiber Lazer",
+        "avg": "30,000–35,000 USD",
+        "use": "Otomotiv/beyaz eşya/savunma"
+      },
+      {
+        "type": "CO2 Lazer",
+        "avg": "90,000–100,000 USD",
+        "use": "Plastik + bazı metal uygulamalar"
+      },
+      {
+        "type": "Nd:YAG Lazer",
+        "avg": "90,000–100,000 USD",
+        "use": "Medikal, mikroelektronik"
+      }
+    ],
+    "selection_guides": [
+      "Küçük atölye: El tipi, hava/su soğutmalı kompakt model.",
+      "Orta ölçek: Otomasyon destekli fiber lazer (2–3kW).",
+      "Yüksek hacim: Robotik entegrasyonlu, reçeteli proses."
+    ]
+  },
+  "spec_tables": {
+    "thickness_speed_power_hint": [
+      {
+        "thickness_mm": "0.5–1.0",
+        "power_w": "500–1500",
+        "speed_m_per_min": "6–10"
+      },
+      {
+        "thickness_mm": "1.0–3.0",
+        "power_w": "1500–3000",
+        "speed_m_per_min": "3–6"
+      },
+      {
+        "thickness_mm": "3.0–6.0",
+        "power_w": "3000–6000",
+        "speed_m_per_min": "1–3"
+      }
+    ],
+    "minimum_thin_sheet": "≈0.3 mm ve üzeri ince saclarda hassas kaynak mümkündür."
+  },
+  "safety_and_compliance": {
+    "ppe": [
+      "Lazer dalga boyuna uygun EN 207/208 gözlük",
+      "Eldiven",
+      "Havalandırma/filtre"
+    ],
+    "machine_safety": [
+      "Acil stop",
+      "Interlock",
+      "Lazer Kontrollü Alan (LCA)"
+    ],
+    "standards": [
+      "EN 60825-1",
+      "EN ISO 12100",
+      "EN 60204-1",
+      "EN ISO 11553",
+      "ISO 9001 süreçleri",
+      "EN 207",
+      "EN 208"
+    ],
+    "fume_note": "Metal dumanı zararlıdır; uygun tahliye/filtre kullanılmalıdır."
+  },
+  "faq": [
+    {
+      "q": "Fiber lazer mi, CO2 mi?",
+      "a": "Metal işleme/enerji verimi/düşük bakım için fiber; metal dışı/plastik vb. için CO2. Mikro hassasiyet için Nd:YAG."
+    },
+    {
+      "q": "Hangi metaller?",
+      "a": "Çelik, paslanmaz, alüminyum, titanyum, bakır ve alaşımlar (yüzey hazırlığı ve uygun gazla)."
+    },
+    {
+      "q": "Kalınlık aralığı?",
+      "a": "Tipik 1–3 mm için 1–2 kW; 3–8 mm için 2–3 kW; 8–10 mm için 3 kW+. İnce saclarda ≈0.3 mm’den itibaren hassas kaynak."
+    },
+    {
+      "q": "Kaynak sonrası taşlama gerekir mi?",
+      "a": "Fiber lazerde çoğu uygulamada gerekmez; dikiş temiz ve pürüzsüz çıkar."
+    },
+    {
+      "q": "Taşınabilir mi?",
+      "a": "El tipi fiber/diyot sistemler saha işlerinde pratiktir (P Serisi gibi kompakt çözümler)."
+    },
+    {
+      "q": "P ve H Serisi farkı?",
+      "a": "P: kompakt/mobil. H: daha geniş alan, aksesuarla özelleşir. A Serisi: robotik entegrasyon."
+    },
+    {
+      "q": "Servis/garanti?",
+      "a": "Türkiye genelinde destek; 2 yıl servis, 5 yıl yedek parça; kurulum + temel eğitim."
+    },
+    {
+      "q": "Enerji tüketimi/verim?",
+      "a": "Fiber/diyot sistemler yüksek verimlidir; toplam işletme maliyetinde avantaj."
+    },
+    {
+      "q": "Bozuk makinem var, tamir edebilir misiniz?",
+      "a": "Farklı markalara servis desteğimiz bulunmaktadır. Marka ve model bilgilerinizi paylaşırsanız yardımcı olmaya çalışacağız."
+    },
+    {
+      "q": "Yerleşik servisiniz var mı?",
+      "a": "Ankara ve diğer illere Kocaeli merkez fabrikamızdan servis verilmektedir."
+    },
+    {
+      "q": "Yeriniz nerede?",
+      "a": "Merkezimiz Kocaeli Dilovası Mermerciler KOBİ Organize Sanayi Bölgesinde yer almaktadır. Haritalarda \"Rgwel Lazer\" yazarak merkez fabrikamıza ulaşabilirsiniz."
+    },
+    {
+      "q": "Demolar ücretsiz mi?",
+      "a": "İletişim bilgilerinizi paylaşmanız halinde, demo talebinizle ilgili en kısa sürede dönüş yapılacaktır."
+    }
+  ],
+  "response_templates": {
+    "quote_intake": "Size doğru modeli önermek için lütfen şu bilgileri paylaşın: 1) Malzeme türü ve kalınlık aralığı, 2) Parça/ek yeri tipi (ör. köşe/çapraz/dairesel), 3) Günlük/aylık adet, 4) Taşınabilirlik ihtiyacı (el tipi mi sabit mi), 5) Otomasyon/robotik entegrasyon isteği, 6) Bütçe aralığı.",
+    "price_answer": "Fiyat; güç (W), teknoloji ve konfigürasyona bağlıdır. El tipi fiber sistemler tipik olarak 10–15 bin USD, endüstriyel fiber 30–35 bin USD bandındadır. İhtiyacınıza göre net teklif paylaşıyoruz.",
+    "safety_answer": "Operatör güvenliği için dalga boyuna uygun gözlük, uygun havalandırma ve interlock gereklidir. Kurulumda eğitim veriyoruz.",
+    "capability_answer": "Fiber lazer ile çelik/paslanmaz/alüminyum gibi metallerde dar HAZ ile estetik ve hızlı kaynak sağlanır. İnce saclarda ≈0.3 mm’den itibaren hassas kaynak mümkündür.",
+    "demo_intake": "Demo talebinizi oluşturabilmemiz için lütfen ad-soyad, firma adı (varsa), şehir ve telefon/e-posta bilginizi paylaşın.",
+    "contact_thanks_with_catalog": "Bilgileriniz için teşekkür ederiz. Temsilcimiz sizinle en kısa sürede iletişime geçecek. Bu esnada ürünlerimizi inceleyebilmeniz için kataloğumuzu ve YouTube kanalımızı paylaşıyorum: https://www.youtube.com/@rgwelmak"
+  },
+  "out_of_scope": [
+    "Blog genel bilgiler içerir; spesifik uygulama parametreleri (tam hız/akım/odak) numune ve denemeyle netleşir.",
+    "Fiyat aralıkları 2025 dönemine aittir; kur/konfigürasyon etkiler."
+  ],
+  "service_phrase": "Bölgeye göre 48–72 saat içinde servis hedeflenir. Net planlama satış ekibi tarafından teyit edilir."
+}
